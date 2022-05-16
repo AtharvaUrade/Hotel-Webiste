@@ -1,0 +1,212 @@
+
+
+
+
+body {
+   
+    font-weight: 100 !important;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, .3) ;
+    margin-top: 100px;
+    background: url("../images/backgroundimg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+
+#main-header {
+  
+   
+    position: absolute;
+    width: 100%;
+    top: 0px;
+   
+  
+}
+
+
+
+
+.rooms {
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo{
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 3vw;
+}
+article {
+    max-width: 301px;
+    display: inline-block;
+    border: 1px solid rgb(78, 148, 239);
+    padding: 10px;
+    margin-left: 2.5vw;
+    box-shadow: 5px 5px 6px  rgba(190, 242, 100, 0.2);
+    transition: box-shadow 800ms, background 1s;
+}
+
+article:hover {
+    box-shadow: 5px 5px 10px rgba(141, 130, 130, 0.8);
+    background-color: rgb(245, 234, 234);
+
+}
+    
+
+
+article img {
+    max-width:100% ;
+    height: 100%;
+    
+}
+
+.article-image {
+    height: 200px;
+    width: 100%;
+    background-position: center !important;
+    background-size: cover !important;
+    border-radius: 5px;
+}
+
+.more-link  {
+    font-weight: 900;
+    font-style: italic;
+    
+}
+
+a {
+    text-decoration: none;
+    text-decoration-style: dotted;
+}
+
+p {
+    
+    text-align: left;
+
+}
+
+
+
+.my-input, .my-textarea {
+    
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    resize: none;
+
+}
+
+.my-input:focus {
+    background: rgb(137, 236, 112);
+    color: rgb(199, 74, 52);
+    outline: none;
+    border: 1px solid #000;
+
+}
+
+
+
+
+
+
+.my-text {
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 2px solid rgb(145, 44, 44);
+
+}
+
+nav {
+    margin: 27px auto ;
+    
+  
+    position: center;
+    width: 330px;
+    height: 50px;
+    background-color: #0f4070;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+   nav .animation {
+    position: absolute;
+    height: 8%;
+    top: 27%;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 10px;
+  }
+  a:nth-child(1) {
+    width: 100px;
+  }
+  a:nth-child(2) {
+    width: 110px;
+  }
+  a:nth-child(3) {
+    width: 100px;
+  }
+  a:nth-child(4) {
+    width: 160px;
+  }
+  a:nth-child(5) {
+    width: 120px;
+  }
+   nav .start-home, a:nth-child(1):hover~.animation { 
+    width: 100px;
+    left: 10;
+  
+  }
+  nav .start-about, a:nth-child(2):hover~.animation {
+    width: 100px;
+    left: 10;
+  }
+  nav .start-blog, a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 10;
+  }
+  nav .start-portefolio, a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 10;
+  }
+  nav .start-contact, a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 10;
+  } 
+  
+  body {
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+  h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Cherry Swash', cursive;
+  }
+  
+ 
